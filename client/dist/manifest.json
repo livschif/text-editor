@@ -31,12 +31,12 @@
       "type": "image/png"
     }
   ],
-  "name": "J.A.T.E",
-  "short_name": "JATE",
+  "name": "Just Another Text Editor",
+  "short_name": "J.A.T.E",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./",
-  "description": "Just another text editor",
+  "description": "Create notes with or without connection",
   "background_color": "#225ca3",
   "theme_color": "#225ca3"
 }
