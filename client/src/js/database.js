@@ -44,9 +44,11 @@ export const getDb = async () => {
   const request = store.get(1);
 
   const result = await request;
-
-  console.log('result.value', result);
-  return result?.value;
+ // If there is a text editor entry, return it.
+ result
+ ? console.log("Data retrieved from the database", result.value)
+ : console.log("Data not found in the database");
+return result?.value;
 };
 
 initdb();
